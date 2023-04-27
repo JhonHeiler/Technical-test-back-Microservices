@@ -50,7 +50,7 @@ private Client client;
 
     @Test
     void getPhone() {
-        assertEquals(323496, clientDTO.getPhone());
+        assertEquals("323496", clientDTO.getPhone());
     }
 
     @Test
